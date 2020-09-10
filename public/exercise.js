@@ -143,7 +143,8 @@ if (workoutTypeSelect) {
 if (completeButton) {
   completeButton.addEventListener("click", function (event) {
     shouldNavigateAway = true;
-    handleFormSubmit(event);
+    // handleFormSubmit(event);
+    location.href = '/'
   });
 }
 if (addButton) {

@@ -2,7 +2,7 @@
   "name": "fitnesstracker",
   "version": "1.0.0",
   "description": "For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/E-Park8/fitnesstracker#readme",
   "dependencies": {
-    "mongoose": "^5.10.3"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.3",
+    "morgan": "^1.10.0"
   }
 }
